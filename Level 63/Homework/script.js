@@ -17,8 +17,7 @@ buttons.forEach(button => {
         const playerChoice = button.getAttribute("data-choice");
         const computerChoice = getComputerChoice();
         const result = determineWinner(playerChoice, computerChoice);
-
-        // user interfaceis shecla
+        
         playerChoiceDisplay.textContent = capitalize(playerChoice);
         computerChoiceDisplay.textContent = capitalize(computerChoice);
         messageDisplay.textContent = result.message;

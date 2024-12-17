@@ -28,7 +28,7 @@ cookie.addEventListener('click', function() {
         gameTitle.classList.add('new-level-animation'); 
         setTimeout(() => {
             gameTitle.classList.remove('new-level-animation');
-        }, 1000); // ანიმაცია გაგრძელდება 1 წამი
+        }, 1000); 
     }
 
     cookie.classList.add('clicked');
@@ -39,7 +39,7 @@ cookie.addEventListener('click', function() {
 
 resetButton.addEventListener('click', function() {
     score = 0;
-    multiplier = 1;  // multiplier ისევ 1-ია როდისაც თავიდან იწყებთ
-    level = 1;  // ლეველი ისევ 1-ზეა
+    multiplier = 1;  
+    level = 1;  
     scoreElement.textContent = score;
 });
